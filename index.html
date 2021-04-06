@@ -1,0 +1,83 @@
+
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Пример использования div тегов</title>
+		<style>
+			.header {
+				width:70%;
+					#height:120px;
+				border:1px solid black;
+				background:blue;
+				  #position: relative;
+				display: flex;
+				  #justify-content: center;
+				  #align-items: center;
+			}
+			
+			.sidebar {
+				width:200px;
+				height:300px;
+				border:1px solid black;
+				float:left;
+			}
+			
+			.content {
+				width:100%-200px;
+				height:300px;
+				border:1px solid black;
+				margin-left:230px;
+			}
+			
+			.footer {
+				width:100%;
+				height:130px;
+				border:1px solid black;
+			}
+			.button {
+				background:orange;
+				width:150px;
+				height:30px;
+				float:left;
+				margin-left:10px;
+				margin-top:10px;
+				margin-bottom:10px;
+				border:1px solid black;
+				#position: relative;
+				text-align: center;
+				#display: inline-block;;
+				#vertical-align: middle;
+ }
+		</style>
+	</head>
+	<body>
+		<div class="header">
+			<div class="button">
+			1
+			</div>
+			<div class="button">
+			2
+			</div>
+			<div class="button">
+			3
+			</div>
+		</div>
+		<div class="sidebar"></div>
+		<div class="content">
+		<a href="CPU.png" target="_blank">
+			<img width="100" height="100" border="0" align="center"  src="CPU.png"/> 
+		</a>
+		<a 
+			href="CPU.png" alt="Image description" target="_blank" style="display: inline-block; width: 50px; height; 50px; background-image: url('CPU.png');">
+		</a>
+		</div>
+		<div class="footer"></div>
+		
+		<div style="border:1px solid black;margin:10px">Non-floatting above.</div>
+		<div style="border:1px solid black;margin:10px;float:left">Floatting on the left.</div>
+		<div style="border:1px solid black;margin:10px;float:right">Floatting on the right.</div>
+		<div style="border:1px solid black;margin:10px">Non-floatting in the middle.</div>
+		<div style="border:1px solid black;margin:10px;clear:both">Non-floatting below.</div>
+	</body>
+</html>
