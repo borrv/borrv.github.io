@@ -1,6 +1,7 @@
 body{
-	background: url('img/cover.jpeg');
+	background: url('img/front2.jpg');
     background-size: cover;
+	#background: #F67E7D;
 }
 .all{
 	
@@ -12,6 +13,7 @@ body{
 	border-style:solid;
 	border-color:#cccccc;
 	border-width:2px;
+	#box-shadow:50px 0px 5000px #e80225;
 	border-radius:60px 60px 60px 60px;
 }
 
@@ -22,11 +24,11 @@ body{
     #flex-direction:row;
 	justify-content:center;
 	align-items:center;
-	font-size:20pt;
-	color:red;
+	font-size:40pt;
+	color:#843B62;
 }
 .cent{
-	display: flex;
+	#display: flex;
 	border-bottom:1px solid #cccccc;
 	justify-content:center;
 	align-items:center;
@@ -40,25 +42,25 @@ body{
 	margin-left:20px;
 }
 .cent2-2{
-	background:orange;
+	background:#FFB997;
     #border:1px solid #cccccc;
     text-align:center;
 	#flex-direction:row;
 	#display: flex;
 	height:30px;
-    width:100px;
+    width:190px;
 	margin:10px;
 	float:left;
+	color:#0B032D;
+	border-radius:60px 60px 60px 60px;
+	align-items:center;
+	font-size:20pt;
  }
-.cent2-2:hover{
-	
-}
-.cent2-2:active{
-	
-}
+
 
 a{
-text-decoration:none;
+	text-decoration:none;
+
 }
 
 .foto{
@@ -66,8 +68,8 @@ text-decoration:none;
     text-align:center;
 	#flex-direction:row;
 	display: flex;
-	height:100px;
-    width:100px;
+	height:200px;
+    width:280px;
 	max-width:100%;
 	margin:30px;
 	justify-content:center;
